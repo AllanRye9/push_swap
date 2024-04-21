@@ -2,7 +2,7 @@
 
 // This function calculates how many times 
 // we should rotate the stacks together.
-// Because after a certain amoun of rotate, we will
+// Because after a certain amount of rotate, we will
 // proceed only with one stack rotation.
 int	ft_case_rarb(t_stack *a, t_stack *b, int c)
 {
@@ -15,7 +15,7 @@ int	ft_case_rarb(t_stack *a, t_stack *b, int c)
 }
 
 // This function calculates how many times we should rotate the stacks together.
-// Because after a certain amoun of rotate, we will proceed only with one stack
+// Because after a certain amount of rotate, we will proceed only with one stack
 // rotation. Since here we have reverse rotate,rather than index number,
 // we check reverse index number which is 
 // calculated by list_size - index_number.

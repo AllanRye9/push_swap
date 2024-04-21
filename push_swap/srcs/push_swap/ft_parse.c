@@ -1,11 +1,5 @@
 #include "../../includes/push_swap.h"
 
-// This function does three things.
-// 1. It checks if the number of input is less than 2.
-// 2. It checks if the number of input is equal to 2.
-//    If it is, it means it is a quoted string.
-// 3. It checks if the number of input is greater than 2.
-//     If it is, it lists the arguements.
 t_stack	*ft_parse(int argc, char **argv)
 {
 	t_stack	*stack_a;
