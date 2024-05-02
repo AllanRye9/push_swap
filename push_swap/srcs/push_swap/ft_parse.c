@@ -9,7 +9,7 @@ t_stack	*ft_parse(int argc, char **argv)
 	i = 1;
 	stack_a = NULL;
 	if (argc < 2)
-		ft_error();
+		exit(0);
 	else if (argc == 2)
 		stack_a = ft_parse_args_quoted(argv);
 	else

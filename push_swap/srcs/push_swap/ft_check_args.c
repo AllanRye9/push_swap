@@ -23,7 +23,9 @@ void	alpha_check(char **argv)
 		while ((argv[i][j]) != '\0')
 		{
 			if (ft_isalpha(argv[i][j]))
-				ft_error();
+			{
+				ft_printf("Error\n");
+			}
 			j++;
 		}
 		i++;

@@ -27,7 +27,7 @@ int			ft_isalpha(int c);
 int			sign(int c);
 int			digit(int c);
 int			space(int c);
-void		ft_error(void);
+void		ft_error(void); //change 3
 void		ft_free(t_stack **lst);
 t_stack		*ft_lstlast(t_stack *lst);
 void		ft_ra(t_stack **a, int j);
@@ -77,5 +77,5 @@ void		algorithm(int argc, char **argv);
 void		ft_sort_b_till_3(t_stack **stack_a, t_stack **stack_b);
 t_stack		*ft_sub_process(char **argv);
 void		ft_error_ch(void);
-
+int			ft_atoi2(const char *str);
 #endif
