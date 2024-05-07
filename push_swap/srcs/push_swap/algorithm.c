@@ -87,7 +87,6 @@ t_stack *ft_process(int argc, char **argv)
                 ft_add_back(&a, ft_stack_new(num));
                 j++;
             }
-            // Freeing the array of strings
             ft_free_str(tmp);
             i++;
         }

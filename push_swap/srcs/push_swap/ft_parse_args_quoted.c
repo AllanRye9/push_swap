@@ -12,8 +12,8 @@ void ft_free_str(char **lst)
         lst++;
         free(n1);
     }
-    lst--; // Move back to the last element
-    *lst = NULL; // Set the last element to NULL
+    free(lst); 
+    lst = NULL;
 }
 
 t_stack *ft_parse_args_quoted(char **argv)
